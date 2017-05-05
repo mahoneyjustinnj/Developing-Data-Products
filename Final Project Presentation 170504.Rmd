@@ -1,0 +1,50 @@
+---
+title: "Final Project: Shiny Application and pitch"
+author: "Justin Mahoney"
+date: "May 4, 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+setwd("C:\\Users\\Justin\\Desktop\\Kozyrysky\\KozyrskyjJobApplication\\")
+```
+
+## About the course project
+This is a deliverable for the course Developing Data Products as part of the Coursera Data Science Specialization.
+
+Instructions:
+1. Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
+2. Deploy the application on Rstudio's shiny server
+3. Share the application link by pasting it into the provided text box
+4. Share your server.R and ui.R code on github
+
+##Obesity and Determining Body Mass Index (BMI)
+![Profiles of individuals having the BMI's shown](C:\Users\Justin\Desktop\Kozyrysky\KozyrskyjJobApplication\ObeseMen.JPG)
+
+reference: http://quarksandcoffee.com/index.php/2015/08/20/over-one-third-of-americans-are-obese-just-how-overweight-are-we-collectively/
+
+
+## Determining your Body Mass Index (BMI) 
+
+Body Mass Index uses your weight and height to give a relative measure of your body fat.
+
+It is calculated by taking you weight (in kilograms) and dividing it by the square of your height (in meters)
+
+In the following application, you will enter you weight in pounds (lbs) and your height in centimeters (cm). 
+The application is running on:
+https://mahoneyjustin.shinyapps.io/finalprojectddp/
+
+ui.R and Server.R code in my Github repository
+(insert link)
+image links: <https://www.nutritionexpress.com/hn/generic/how-much-should-i-weigh/>
+
+## Are you a healthy weight? 
+![Profiles of individuals of various BMI's](C:\Users\Justin\Desktop\Kozyrysky\KozyrskyjJobApplication\ObesityChart.JPG)
+
+
+
+
+
+
